@@ -1,0 +1,386 @@
+{
+  "popular": [
+    {
+      "id": 1,
+      "name": "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
+      "image": "https://source.unsplash.com/random/350x400/?toy&random=1",
+      "new_price": 50.0,
+      "old_price": 80.5
+    },
+    {
+      "id": 2,
+      "name": "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
+      "image": "https://source.unsplash.com/random/350x400/?toy&random=2",
+      "new_price": 85.0,
+      "old_price": 120.5
+    },
+    {
+      "id": 3,
+      "name": "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
+      "image": "https://source.unsplash.com/random/350x400/?toy&random=3",
+      "new_price": 60.0,
+      "old_price": 100.5
+    },
+    {
+      "id": 4,
+      "name": "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
+      "image": "https://source.unsplash.com/random/350x400/?toy&random=4",
+      "new_price": 100.0,
+      "old_price": 150.0
+    }
+  ],
+
+  "new-collection": [
+    {
+      "id": 12,
+      "name": "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
+      "image": "https://source.unsplash.com/random/350x350/?toy&random=12",
+      "new_price": 50.0,
+      "old_price": 80.5,
+      "category": "kids"
+    },
+    {
+      "id": 35,
+      "name": "Boys Orange Colourblocked Hooded Sweatshirt",
+      "image": "https://source.unsplash.com/random/350x350/?toy&random=35",
+      "new_price": 85.0,
+      "category": "kids",
+      "old_price": 120.5
+    },
+    {
+      "id": 14,
+      "name": "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
+      "image": "https://source.unsplash.com/random/350x350/?toy&random=14",
+      "new_price": 60.0,
+      "old_price": 100.5,
+      "category": "kids"
+    },
+    {
+      "id": 8,
+      "name": "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
+      "image": "https://source.unsplash.com/random/350x350/?toy&random=8",
+      "new_price": 100.0,
+      "category": "kids",
+      "old_price": 150.0
+    },
+    {
+      "id": 15,
+      "name": "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
+      "image": "https://source.unsplash.com/random/350x350/?toy&random=15",
+      "new_price": 50.0,
+      "category": "kids",
+      "old_price": 80.5
+    },
+    {
+      "id": 2,
+      "name": "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
+      "image": "https://source.unsplash.com/random/350x350/?toy&random=2",
+      "new_price": 85.0,
+      "category": "kids",
+      "old_price": 120.5
+    },
+    {
+      "id": 17,
+      "name": "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
+      "image": "https://source.unsplash.com/random/350x350/?toy&random=17",
+      "new_price": 60.0,
+      "category": "kids",
+      "old_price": 100.5
+    },
+    {
+      "id": 28,
+      "name": "Boys Orange Colourblocked Hooded Sweatshirt",
+      "image": "https://source.unsplash.com/random/350x350/?toy&random=28",
+      "new_price": 100.0,
+      "category": "kids",
+      "old_price": 150.0
+    }
+  ],
+  "women": [
+    {
+      "id": 1,
+      "name": "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
+      "category": "women",
+      "image": "https://fakestoreapi.com/img/51Y5NI-I5jL._AC_UX679_.jpg",
+      "new_price": 50.0,
+      "old_price": 80.5
+    },
+    {
+      "id": 2,
+      "name": "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
+      "category": "women",
+      "image": "https://fakestoreapi.com/img/81XH0e8fefL._AC_UY879_.jpg",
+      "new_price": 85.0,
+      "old_price": 120.5
+    },
+    {
+      "id": 3,
+      "name": "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
+      "category": "women",
+      "image": "https://fakestoreapi.com/img/51Y5NI-I5jL._AC_UX679_.jpg",
+      "new_price": 60.0,
+      "old_price": 100.5
+    },
+    {
+      "id": 4,
+      "name": "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
+      "category": "women",
+      "image": "https://fakestoreapi.com/img/71z3kpMAYsL._AC_UY879_.jpg",
+      "new_price": 100.0,
+      "old_price": 150.0
+    },
+    {
+      "id": 5,
+      "name": "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
+      "category": "women",
+      "image": "https://fakestoreapi.com/img/61pHAEJ4NML._AC_UX679_.jpg",
+      "new_price": 85.0,
+      "old_price": 120.5
+    },
+    {
+      "id": 6,
+      "name": "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
+      "category": "women",
+      "image": "https://fakestoreapi.com/img/71z3kpMAYsL._AC_UY879_.jpg",
+      "new_price": 45.0,
+      "old_price": 120.5
+    },
+    {
+      "id": 7,
+      "name": "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
+      "category": "women",
+      "image": "https://fakestoreapi.com/img/51Y5NI-I5jL._AC_UX679_.jpg",
+      "new_price": 95.0,
+      "old_price": 120.5
+    },
+    {
+      "id": 8,
+      "name": "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
+      "category": "women",
+      "image": "https://fakestoreapi.com/img/51Y5NI-I5jL._AC_UX679_.jpg",
+      "new_price": 71.0,
+      "old_price": 120.5
+    },
+    {
+      "id": 9,
+      "name": "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
+      "category": "women",
+      "image": "https://fakestoreapi.com/img/81XH0e8fefL._AC_UY879_.jpg",
+      "new_price": 19.0,
+      "old_price": 120.5
+    },
+    {
+      "id": 10,
+      "name": "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
+      "category": "women",
+      "image": "https://fakestoreapi.com/img/71z3kpMAYsL._AC_UY879_.jpg",
+      "new_price": 46.0,
+      "old_price": 120.5
+    },
+    {
+      "id": 11,
+      "name": "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
+      "category": "women",
+      "image": "https://fakestoreapi.com/img/61pHAEJ4NML._AC_UX679_.jpg",
+      "new_price": 126.0,
+      "old_price": 120.5
+    },
+    {
+      "id": 12,
+      "name": "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
+      "category": "women",
+      "image": "https://fakestoreapi.com/img/51eg55uWmdL._AC_UX679_.jpg",
+      "new_price": 128.0,
+      "old_price": 120.5
+    }
+  ],
+  "men": [
+    {
+      "id": 13,
+      "name": "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
+      "category": "men",
+      "image": "https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg",
+      "new_price": 85.0,
+      "old_price": 120.5
+    },
+    {
+      "id": 14,
+      "name": "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
+      "category": "men",
+      "image": "https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_.jpg",
+      "new_price": 85.0,
+      "old_price": 120.5
+    },
+    {
+      "id": 15,
+      "name": "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
+      "category": "men",
+      "image": "https://fakestoreapi.com/img/71YXzeOuslL._AC_UY879_.jpg",
+      "new_price": 85.0,
+      "old_price": 120.5
+    },
+    {
+      "id": 16,
+      "name": "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
+      "category": "men",
+      "image": "https://fakestoreapi.com/img/71YXzeOuslL._AC_UY879_.jpg",
+      "new_price": 85.0,
+      "old_price": 120.5
+    },
+    {
+      "id": 17,
+      "name": "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
+      "category": "men",
+      "image": "https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_.jpg",
+      "new_price": 85.0,
+      "old_price": 120.5
+    },
+    {
+      "id": 18,
+      "name": "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
+      "category": "men",
+      "image": "https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg",
+      "new_price": 85.0,
+      "old_price": 120.5
+    },
+    {
+      "id": 19,
+      "name": "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
+      "category": "men",
+      "image": "https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg",
+      "new_price": 85.0,
+      "old_price": 120.5
+    },
+    {
+      "id": 20,
+      "name": "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
+      "category": "men",
+      "image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
+      "new_price": 85.0,
+      "old_price": 120.5
+    }
+  ],
+
+  "kids": [
+    {
+      "id": 21,
+      "name": "Red Wooden Car",
+      "category": "kids",
+      "image": "https://source.unsplash.com/random/350x400/?toy&random=1",
+      "new_price": 50.0,
+      "old_price": 80.5
+    },
+    {
+      "id": 22,
+      "name": "Blue Stuffed Bear",
+      "category": "kids",
+      "image": "https://source.unsplash.com/random/350x400/?toy&random=2",
+      "new_price": 85.0,
+      "old_price": 120.5
+    },
+    {
+      "id": 23,
+      "name": "Green Robot Action Figure",
+      "category": "kids",
+      "image": "https://source.unsplash.com/random/350x400/?toy&random=3",
+      "new_price": 60.0,
+      "old_price": 100.5
+    },
+    {
+      "id": 24,
+      "name": "Yellow Plush Duck",
+      "category": "kids",
+      "image": "https://source.unsplash.com/random/350x400/?toy&random=4",
+      "new_price": 100.0,
+      "old_price": 150.0
+    },
+    {
+      "id": 25,
+      "name": "Purple Teddy Bear",
+      "category": "kids",
+      "image": "https://source.unsplash.com/random/350x400/?toy&random=5",
+      "new_price": 50.0,
+      "old_price": 80.5
+    },
+    {
+      "id": 26,
+      "name": "Orange Wooden Train",
+      "category": "kids",
+      "image": "https://source.unsplash.com/random/350x400/?toy&random=6",
+      "new_price": 85.0,
+      "old_price": 120.5
+    },
+    {
+      "id": 27,
+      "name": "Pink Dollhouse Set",
+      "category": "kids",
+      "image": "https://source.unsplash.com/random/350x400/?toy&random=7",
+      "new_price": 60.0,
+      "old_price": 100.5
+    },
+    {
+      "id": 28,
+      "name": "Brown Rocking Horse",
+      "category": "kids",
+      "image": "https://source.unsplash.com/random/350x400/?toy&random=8",
+      "new_price": 100.0,
+      "old_price": 150.0
+    },
+    {
+      "id": 29,
+      "name": "White Plush Bunny",
+      "category": "kids",
+      "image": "https://source.unsplash.com/random/350x400/?toy&random=9",
+      "new_price": 50.0,
+      "old_price": 80.5
+    },
+    {
+      "id": 30,
+      "name": "Black Remote Control Car",
+      "category": "kids",
+      "image": "https://source.unsplash.com/random/350x400/?toy&random=10",
+      "new_price": 85.0,
+      "old_price": 120.5
+    },
+    {
+      "id": 31,
+      "name": "Silver Toy Truck",
+      "category": "kids",
+      "image": "https://source.unsplash.com/random/350x400/?toy&random=11",
+      "new_price": 60.0,
+      "old_price": 100.5
+    },
+    {
+      "id": 32,
+      "name": "Gold Puzzle Set",
+      "category": "kids",
+      "image": "https://source.unsplash.com/random/350x400/?toy&random=12",
+      "new_price": 100.0,
+      "old_price": 150.0
+    },
+    {
+      "id": 33,
+      "name": "Rainbow Jump Rope",
+      "category": "kids",
+      "image": "https://source.unsplash.com/random/350x400/?toy&random=13",
+      "new_price": 50.0,
+      "old_price": 80.5
+    },
+    {
+      "id": 34,
+      "name": "Sky Blue Kite",
+      "category": "kids",
+      "image": "https://source.unsplash.com/random/350x400/?toy&random=14",
+      "new_price": 85.0,
+      "old_price": 120.5
+    },
+    {
+      "id": 35,
+      "name": "Magenta Play-Doh Set",
+      "category": "kids",
+      "image": "https://source.unsplash.com/random/350x400/?toy&random=15",
+      "new_price": 60.0,
+      "old_price": 100.5
+    }
+  ]
+}

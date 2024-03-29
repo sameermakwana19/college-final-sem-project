@@ -1,0 +1,31 @@
+import React from "react";
+import { Link } from "react-router-dom";
+
+const Login = () => {
+  return (
+    <div className="auth-form-container">
+      <form
+        onSubmit={(e) => {
+          e.preventDefault();
+        }}
+        className="auth-form"
+      >
+        <input type="email" className="email" placeholder="email" />
+        <input type="password" name="password" id="" placeholder="password" />
+        <button className="submit-btn">Login</button>
+      </form>
+      <p className="login-signup-text">
+        Create an account ?{" "}
+        <Link to="/signup" className="login-signup-link">
+          Click here
+        </Link>
+      </p>
+      <div className="agree-container">
+        <input type="checkbox" name="agree-terms" />
+        <p>By continuing , I agree to the terms of use & privacy policy.</p>
+      </div>
+    </div>
+  );
+};
+
+export default Login;

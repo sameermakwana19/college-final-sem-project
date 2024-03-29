@@ -1,0 +1,20 @@
+// @use "../../mixins.scss" as *;
+
+.auth-btn {
+  padding: 1rem;
+  height: 5rem;
+  width: 16rem;
+  letter-spacing: 1px;
+  font-size: 1.8rem;
+  border-radius: 50px;
+  background-color: var(--color-secondary);
+  border: 0;
+  outline: none;
+  cursor: pointer;
+  transition: all 1s;
+  @include flex-layout;
+
+  &:active {
+    background-color: darken($color: $color-tertiary, $amount: 0%);
+  }
+}

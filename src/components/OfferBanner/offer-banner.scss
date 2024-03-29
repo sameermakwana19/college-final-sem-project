@@ -1,0 +1,44 @@
+.offer-banner {
+  width: 100%;
+  height: 35rem;
+  max-width: 1440px;
+  margin: 4rem auto;
+  @include flex-layout;
+
+  background: rgb(71, 85, 105);
+  background: linear-gradient(180deg, rgb(49, 59, 73) 0%, rgba(0, 0, 0, 1) 60%);
+  // justify-content: space-around;
+
+  .offer-content {
+    width: 60%;
+    padding-left: 10rem;
+  }
+
+  .offer-heading {
+    font-size: 6rem;
+    letter-spacing: 1px;
+    color: $color-secondary;
+  }
+  .offer-sub-heading {
+    font-size: 2rem;
+  }
+
+  .offer-duration {
+    font-size: 3rem;
+
+    span {
+      color: $color-tertiary;
+      margin-right: 0.5rem;
+    }
+  }
+  .offer-img {
+    width: 40%;
+    background: transparent;
+    height: 100%;
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+  }
+}

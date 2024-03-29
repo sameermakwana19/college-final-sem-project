@@ -1,0 +1,29 @@
+.popular {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 2rem 4rem;
+  margin: 8rem 0;
+
+  .popular-heading {
+    text-align: center;
+    font-size: 4rem;
+    margin: 3rem 0 2rem 0;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 1px;
+
+    hr {
+      width: 40rem;
+      padding: 0.1rem 0;
+      border: 0;
+      border-radius: 10px;
+      background-color: $color-tertiary;
+      margin: auto;
+    }
+  }
+
+  .popular-products {
+    @include flex-layout;
+    flex-wrap: wrap;
+  }
+}

@@ -1,0 +1,16 @@
+@import "./mixins.scss";
+@import "./variables";
+
+@import "../components/AuthButton/auth-btn", "../components/Logo/logo.scss",
+  "../components/Navbar/navbar.scss", "../components/CartButton/cartbutton.scss",
+  "../components/Hero/Hero.scss", "../components/Button/button.scss",
+  "../components/ProductCard/product-card.scss",
+  "../components/PopularProducts/popular-product.scss",
+  "../components/OfferBanner/offer-banner.scss",
+  "../components/Newsletter/newsletter.scss", "../components/Footer/footer.scss",
+  "../components/ProductDescriptionReviews/product-description-reviews.scss";
+
+// pages
+@import "../pages/NotFound/notfound.scss";
+@import "../pages/ShopCategory/shop-category.scss", "../pages/login/login.scss",
+  "../pages/Product/product.scss", "../pages/Cart/cart.scss";

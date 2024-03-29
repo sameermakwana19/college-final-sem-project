@@ -1,0 +1,61 @@
+.newsletter {
+  width: 100%;
+  max-width: 1440px;
+  margin: 10rem auto;
+  padding: 2rem 0;
+  background: rgb(71, 85, 105);
+  background: linear-gradient(180deg, rgb(49, 59, 73) 0%, rgba(0, 0, 0, 1) 60%);
+  @include flex-layout;
+  flex-direction: column;
+
+  &-heading {
+    margin: 1rem;
+    font-size: 5rem;
+  }
+  &-subheading {
+    font-size: 2rem;
+    margin: 1rem 0 2rem;
+  }
+
+  .newsletter-form {
+    width: 100%;
+    max-width: 720px;
+    .input-container {
+      width: 100%;
+      display: flex;
+      padding: 0.5rem;
+      background-color: $color-secondary;
+      margin: auto;
+      outline: none;
+      overflow: hidden;
+      border-radius: 30px;
+      position: relative;
+
+      @include flex-layout;
+
+      input {
+        background: transparent;
+        flex-grow: 1;
+        padding: 1.5rem 2.5rem;
+        font-size: 1.8rem;
+        border: 0;
+        outline: none;
+      }
+
+      button {
+        // background-color: $color-tertiary;
+        border-radius: 30px;
+        font-size: 1.8rem;
+        letter-spacing: 1px;
+        text-align: center;
+        width: 15rem;
+        height: 100%;
+        padding: 1.7rem 1.5rem;
+        background-color: $color-primary;
+        color: $color-secondary;
+        border: 0;
+        outline: none;
+      }
+    }
+  }
+}

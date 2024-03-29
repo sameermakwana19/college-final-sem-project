@@ -1,0 +1,26 @@
+.cartbutton-container {
+  padding: 0.5rem;
+
+  position: relative;
+
+  @include flex-layout;
+
+  .cart-icon {
+    font-size: 3rem;
+    // color: black;
+  }
+
+  .cart-items-count {
+    position: absolute;
+    right: 0;
+    top: 0;
+    transform: translate(30%, -10%);
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: $color-tertiary;
+    font-size: 1.4rem;
+
+    @include flex-layout;
+  }
+}

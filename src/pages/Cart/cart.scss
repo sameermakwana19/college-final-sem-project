@@ -1,0 +1,52 @@
+.cart {
+  width: 100%;
+  max-width: 1440px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  // align-items: center;
+  justify-content: center;
+  margin-top: 5rem;
+  padding: 2rem 5rem;
+  font-size: 1.5rem;
+  .header {
+    font-weight: 600;
+    border-bottom: 1px solid darkgray;
+    margin: 1rem 0;
+  }
+  .body {
+    width: 100%;
+  }
+
+  .header,
+  .product {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1.5fr 2.5fr repeat(4, 1fr);
+    div,
+    p {
+      width: 100%;
+      padding: 1.5rem 0;
+      border-bottom: 1px solid darkgray;
+      @include flex-layout;
+    }
+  }
+  .product {
+    img {
+      width: 60px;
+      height: 60px;
+    }
+  }
+
+  .total-price-section {
+    width: 500px;
+    padding: 1.5rem;
+    margin: 2rem 0;
+    font-size: 2rem;
+
+    div {
+      padding: 1rem 0;
+      border-bottom: 2px solid darkgray;
+    }
+  }
+}

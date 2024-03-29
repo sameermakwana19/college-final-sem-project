@@ -1,0 +1,27 @@
+.product-description-reviews-container {
+  width: 100%;
+  padding: 2rem 3rem;
+  .header {
+    @include flex-layout;
+    justify-content: flex-start;
+    align-items: center;
+
+    div {
+      padding: 1rem 2rem;
+      font-size: 1.6rem;
+      font-weight: 500;
+      color: $color-secondary;
+      border: 1px solid darkgray;
+    }
+    .active {
+      background-color: $color-secondary;
+      color: $color-primary;
+    }
+  }
+
+  .body {
+    border: 1px solid darkgray;
+    padding: 2rem 1rem;
+    font-size: 1.8rem;
+  }
+}

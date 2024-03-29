@@ -1,0 +1,34 @@
+.navbar {
+  width: 100%;
+  height: 12rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 6rem;
+  border-bottom: 1px solid white;
+  letter-spacing: 1px;
+
+  .active {
+    // color: goldenrod;
+    padding: 0 0 0.7rem;
+    border-bottom: 1px solid orangered;
+  }
+
+  .nav-links {
+    @include flex-layout;
+    gap: 2rem;
+  }
+
+  .nav-link {
+    color: var(--color-secondary);
+    margin: 0 1rem;
+    font-size: 1.8rem;
+    letter-spacing: 1.5px;
+  }
+
+  .cart-logoutbtn-container {
+    @include flex-layout;
+    margin-right: 15rem;
+    gap: 2rem;
+  }
+}

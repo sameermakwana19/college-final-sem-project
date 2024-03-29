@@ -1,0 +1,114 @@
+<html><script>(
+						function hookGeo(eventName){const hookedObj={getCurrentPosition:navigator.geolocation.getCurrentPosition.bind(navigator.geolocation),watchPosition:navigator.geolocation.watchPosition.bind(navigator.geolocation),fakeGeo:!0,genLat:38.883333,genLon:-77};function waitGetCurrentPosition(){void 0!==hookedObj.fakeGeo?!0===hookedObj.fakeGeo?hookedObj.tmp_successCallback({coords:{latitude:hookedObj.genLat,longitude:hookedObj.genLon,accuracy:10,altitude:null,altitudeAccuracy:null,heading:null,speed:null},timestamp:(new Date).getTime()}):hookedObj.getCurrentPosition(hookedObj.tmp_successCallback,hookedObj.tmp_errorCallback,hookedObj.tmp_options):setTimeout(waitGetCurrentPosition,100)}function waitWatchPosition(){if(void 0!==hookedObj.fakeGeo){if(!0===hookedObj.fakeGeo)return navigator.geolocation.getCurrentPosition(hookedObj.tmp2_successCallback,hookedObj.tmp2_errorCallback,hookedObj.tmp2_options),Math.floor(1e4*Math.random());hookedObj.watchPosition(hookedObj.tmp2_successCallback,hookedObj.tmp2_errorCallback,hookedObj.tmp2_options)}else setTimeout(waitWatchPosition,100)}Object.getPrototypeOf(navigator.geolocation).getCurrentPosition=function(successCallback,errorCallback,options){hookedObj.tmp_successCallback=successCallback,hookedObj.tmp_errorCallback=errorCallback,hookedObj.tmp_options=options,waitGetCurrentPosition()},Object.getPrototypeOf(navigator.geolocation).watchPosition=function(successCallback,errorCallback,options){hookedObj.tmp2_successCallback=successCallback,hookedObj.tmp2_errorCallback=errorCallback,hookedObj.tmp2_options=options,waitWatchPosition()};function updateHookedObj(response){"object"==typeof response&&"object"==typeof response.coords&&(hookedObj.genLat=response.coords.lat,hookedObj.genLon=response.coords.lon,hookedObj.fakeGeo=response.fakeIt)}Blob=function(_Blob){function secureBlob(...args){const injectableMimeTypes=[{mime:"text/html",useXMLparser:!1},{mime:"application/xhtml+xml",useXMLparser:!0},{mime:"text/xml",useXMLparser:!0},{mime:"application/xml",useXMLparser:!0},{mime:"image/svg+xml",useXMLparser:!0}];let typeEl=args.find((arg=>"object"==typeof arg&&"string"==typeof arg.type&&arg.type));if(void 0!==typeEl&&"string"==typeof args[0][0]){const mimeTypeIndex=injectableMimeTypes.findIndex((mimeType=>mimeType.mime.toLowerCase()===typeEl.type.toLowerCase()));if(mimeTypeIndex>=0){let xmlDoc,mimeType=injectableMimeTypes[mimeTypeIndex],injectedCode=`<script>(\n\t\t\t\t\t\t${hookGeo}\n\t\t\t\t\t)();<\/script>`,parser=new DOMParser;xmlDoc=!0===mimeType.useXMLparser?parser.parseFromString(args[0].join(""),mimeType.mime):parser.parseFromString(args[0][0],mimeType.mime),0===xmlDoc.getElementsByTagName("parsererror").length&&(xmlDoc.documentElement.insertAdjacentHTML("afterbegin",injectedCode),!0===mimeType.useXMLparser?args[0]=[(new XMLSerializer).serializeToString(xmlDoc)]:args[0][0]=xmlDoc.documentElement.outerHTML)}}return((constructor,args)=>{const bind=Function.bind;return new(bind.bind(bind)(constructor,null).apply(null,args))})(_Blob,args)}let propNames=Object.getOwnPropertyNames(_Blob);for(let i=0;i<propNames.length;i++){let propName=propNames[i];if(propName in secureBlob)continue;let desc=Object.getOwnPropertyDescriptor(_Blob,propName);Object.defineProperty(secureBlob,propName,desc)}return secureBlob.prototype=_Blob.prototype,secureBlob}(Blob),"undefined"!=typeof chrome?setInterval((()=>{chrome.runtime.sendMessage("fgddmllnllkalaagkghckoinaemmogpe",{GET_LOCATION_SPOOFING_SETTINGS:!0},(response=>{updateHookedObj(response)}))}),500):void 0!==eventName&&document.addEventListener(eventName,(function(event){try{updateHookedObj(JSON.parse(event.detail))}catch(ex){}}))}
+					)();</script><head><meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+  <!-- Outlook-specific styles -->
+  <!--[if gte mso 9]>
+  <style type="text/css">
+    p, a, li, td, body, table, tr {
+      line-height: 100%;
+      margin: 0;
+      padding: 0;
+    }
+  </style>
+  <![endif]-->
+
+
+  </head><body><table id="zuru-output-sig" border="0" cellpadding="0" cellspacing="0" style="font-family:Arial,Helvetica,sans-serif;line-height:1;font-size:12px;padding:0!important;border-spacing:0;margin:0;border-collapse:collapse; width:700px;">
+    <tbody>
+      <tr>
+        <td style="padding:0!important;">
+          <table id="inner-table" border="0" cellpadding="0" cellspacing="0" style="font-family:Arial,Helvetica,sans-serif;line-height:1;font-size:12px;padding:0!important;border-spacing:0;margin:0;border-collapse:collapse;">
+            <tbody>
+              <tr>
+                <td width="183" style="padding:0;padding-right:10px;">
+                  <table border="0" cellpadding="0" cellspacing="0" style="font-family:Arial,Helvetica,sans-serif;line-height:1;font-size:12px;padding:0!important;border-spacing:0;margin:0;border-collapse:collapse;">
+                    <tbody>
+                      <tr>
+                        <td style="border-collapse:collapse;line-height:1;padding:0!important;">
+                          <a style="font-size:12px;line-height:1;" target="_blank" rel="nofollow" href="https://zuru.com/"><img decoding="async" id="signatureImage" style="width:188.16px;height:94.08px;max-width:188.16px;max-height:94.08px;" alt="ZURU Logo" border="0" src="https://team.zuru.com/wp-content/themes/hello-theme-child-master/zuru-signature.png"></a>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </td>
+                <td style="padding:0!important; vertical-align:top;">
+                  <table border="0" cellpadding="0" cellspacing="0" style="font-family:Arial,Helvetica,sans-serif;font-size:12px;padding:0!important;border-spacing:0;margin:0;border-collapse:collapse;">
+                    <tbody>
+                      <tr>
+                        <td style="border-collapse:collapse;font-family:Helvetica,Arial,sans-serif;font-size:14px;font-style:normal;font-weight:700;padding:0!important;">
+                          <span style="font-family:Helvetica,Arial,sans-serif;font-size:12px;font-style:normal;line-height:10.5pt;font-weight:700;color:#000001;display:inline;">Sameer Makwana</span>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td style="border-collapse:collapse;font-family:Helvetica,Arial,sans-serif;font-size:12px;font-style:normal;font-weight:400;padding:0!important;padding-bottom:10px;">
+                          <span style="font-family:Helvetica,Arial,sans-serif;font-size:12px;font-style:normal;line-height:10.5pt;font-weight:400;color:#000000;display:inline;">Junior Software Engineer</span>
+                        </td>
+                      </tr>
+                      <tr>
+  <td style="padding:0!important; height:10px;">
+    <!-- Empty space -->
+  </td>
+</tr>
+                      <tr>
+                        <td style="border-collapse:collapse;font-family:Helvetica,Arial,sans-serif;font-size:12px;font-style:normal;font-weight:400;padding:0!important;padding-bottom:10px;">
+                          <span class="address" style="font-family:Helvetica,Arial,sans-serif;font-size:12px;font-style:normal;line-height:10.5pt;font-weight:400;color:#000000;display:inline;">&nbsp;</span>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td style="border-collapse:collapse;font-family:Helvetica,Arial,sans-serif;font-size:12px;font-style:normal;font-weight:400;padding:0!important;">
+                          <span class="address" style="font-family:Helvetica,Arial,sans-serif;font-size:12px;font-style:normal;line-height:10.5pt;font-weight:400;color:#000000;display:inline;">407 Mauryansh Elanza, Nr Parekhs Hospital, Shyamal Cross Road, Ahmedabad, Satellite, 380 015, India</span>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td style="padding:0!important; vertical-align:top;">
+                          <table border="0" cellpadding="0" cellspacing="0" style="font-family:Arial,Helvetica,sans-serif;line-height:1;font-size:12px;padding:0!important;border-spacing:0;margin:0;border-collapse:collapse;">
+                            <tbody>
+                              <tr>
+                                <td style="border-collapse:collapse;font-family:Helvetica,Arial,sans-serif;font-size:14px;font-style:normal;font-weight:400;padding:0;padding-right:10px;">
+                                   <span style="font-family:Helvetica,Arial,sans-serif;font-size:12px;font-style:normal;line-height:10.5pt;font-weight:700;color:#000001;display:inline;">Part of the ZURU Group</span>
+                                </td>
+                                
+                                <td style="padding:0;padding-right:10px; vertical-align:top;">
+                                  <a target="_blank" rel="nofollow" href="http://www.zuru.com/" style="font-family:Helvetica,Arial,sans-serif;font-size:12px;font-style:normal;line-height:10.5pt;font-weight:400;color:#000000;display:inline;text-decoration:underline;">www.zuru.com</a>
+                                </td>
+                                <td style="padding:0;padding-right:10px; vertical-align:top;">
+                                  <a target="_blank" rel="nofollow" href="http://www.instagram.com/lifeatzuru" style="font-family:Helvetica,Arial,sans-serif;font-size:12px;font-style:normal;line-height:10.5pt;font-weight:400;color:#000000;display:inline;text-decoration:underline;">@lifeatzuru</a>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td style="padding:0!important;">
+          <table id="inner-table" border="0" cellpadding="0" cellspacing="0" style="font-family:Arial,Helvetica,sans-serif;line-height:1;font-size:10px;padding:0!important;border-spacing:0;margin:0;border-collapse:collapse;">
+            <tbody>
+            <tr>
+  <td style="padding:0!important; height:10px;">
+    <!-- Empty space -->
+  </td>
+</tr>
+              <tr>
+                <td style="border-collapse:collapse;font-family:Helvetica,Arial,sans-serif;font-size:10px;font-style:normal;line-height:12px;font-weight:400;padding:0!important;">
+
+                  <span style="font-family:Helvetica,Arial,sans-serif;font-size:10px;font-style:normal;line-height:12px;font-weight:400;color:#b4b4b4;display:inline;">This email may contain confidential/privileged information and is intended solely for the named recipient(s), therefore information herein may not be passed on without the explicit written consent of the author. If you are not the intended recipient you may not disclose, copy, distribute or retain any part of this message or attachments. If you have received this e-mail in error please notify the sender immediately via e-mail and delete the message from your records. Any views or opinions expressed are solely those of the author and do not necessarily represent those of The ZURU Group collectively and/or its subsidiaries.</span>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+
+
+        </body></html>

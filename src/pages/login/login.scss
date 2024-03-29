@@ -1,0 +1,64 @@
+.auth-form-container {
+  width: 100%;
+  max-width: 600px;
+  margin: 10rem auto;
+  padding: 4rem;
+  @include flex-layout;
+  flex-direction: column;
+  background: rgb(39, 38, 37);
+
+  .auth-form {
+    width: 100%;
+    @include flex-layout;
+    flex-direction: column;
+    padding: 1rem 2rem;
+
+    input {
+      width: 100%;
+      font-size: 1.5rem;
+      padding: 1.5rem 2rem;
+      border-radius: 5px;
+      border: 0;
+      outline: none;
+      margin: 1rem 0;
+    }
+
+    .submit-btn {
+      width: 100%;
+      font-size: 1.8rem;
+      padding: 1.5rem 2rem;
+      border-radius: 5px;
+      letter-spacing: 2px;
+      border: 0;
+      outline: none;
+      margin: 1rem 0;
+      background-color: $color-tertiary;
+      color: white;
+      cursor: pointer;
+    }
+  }
+
+  .login-signup-text {
+    font-size: 1.6rem;
+    margin: 1rem 0;
+    text-align: center;
+    .login-signup-link {
+      color: $color-tertiary;
+    }
+  }
+
+  .agree-container {
+    @include flex-layout;
+    justify-content: center;
+    margin: 1rem 0;
+    font-size: 1.4rem;
+
+    input[type="checkbox"] {
+      margin-right: 1rem;
+      width: 20px;
+      height: 20px;
+      border: 0;
+      outline: none;
+    }
+  }
+}
