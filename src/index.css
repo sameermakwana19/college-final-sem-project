@@ -32,3 +32,14 @@ body,
   background-color: black;
   color: white;
 }
+
+body {
+  position: relative;
+}
+/* #product-modal-root {
+  background-color: aqua;
+  position: absolute;
+  top: 0%;
+  width: 100%;
+  left: 0%;
+} */

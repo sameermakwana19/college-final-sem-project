@@ -15,7 +15,7 @@ const ShopCategory = () => {
   const [data, setData] = useState([]);
   const [error, setError] = useState();
   const [searchParams, setSearchParams] = useSearchParams();
-  console.log(searchParams);
+  // console.log(searchParams);
 
   const { pathname } = useLocation();
 
@@ -63,19 +63,21 @@ const ShopCategory = () => {
       />
     ),
   };
-  console.log({ data });
+  // console.log({ data });
 
   useEffect(() => {
     if (searchParams.get("sortby") === "price") {
       const demo = [...data];
       // alert(JSON.stringify(demo));
-      demo.sort((a, b) => a.new_price > b.new_price);
+      demo.sort((a, b) => a.new_price - b.new_price);
+      // alert(demo);
       console.log(demo);
       setData(demo);
+      alert("running");
     }
   }, [searchParams.get("sortby")]);
 
-  console.log({ sortby: searchParams.get("sortby") });
+  // console.log({ sortby: searchParams.get("sortby") });
 
   return (
     <>

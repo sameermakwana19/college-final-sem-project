@@ -10,9 +10,10 @@ import { useLocation, useParams } from "react-router-dom";
 import axios from "axios";
 import ProductDescriptionReviews from "../../components/ProductDescriptionReviews/ProductDescriptionReviews";
 import { CartContext } from "../../context/CartContext/CardContextProvider";
+import { createPortal } from "react-dom";
 
 const Product = () => {
-  // const [mainImage, setMainImage] = useState(image);
+  const [mainImage, setMainImage] = useState(null);
   // const { id } = useParams();
 
   const { addToCart } = useContext(CartContext);
@@ -32,6 +33,7 @@ const Product = () => {
       );
       if (data.status === 200) {
         setProduct(data.data[0]);
+        setMainImage(data.data[0].image);
       }
     })();
 
@@ -50,10 +52,10 @@ const Product = () => {
           <div className="product-details-left">
             <div className="product-img-list">
               <img
-                src={product.image}
+                src={image1}
                 alt=""
                 onClick={() => {
-                  setMainImage(product.image);
+                  setMainImage(image1);
                 }}
               />
               <img
@@ -79,7 +81,7 @@ const Product = () => {
               />
             </div>
             <div className="product-main-img">
-              <img src={product.image} alt="" />
+              <img src={mainImage} alt="" />
             </div>
           </div>
           <div className="product-details-right">

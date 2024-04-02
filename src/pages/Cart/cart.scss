@@ -22,7 +22,7 @@
   .product {
     width: 100%;
     display: grid;
-    grid-template-columns: 1.5fr 2.5fr repeat(4, 1fr);
+    grid-template-columns: 1.5fr 2.5fr repeat(5, 1fr);
     div,
     p {
       width: 100%;
@@ -43,9 +43,11 @@
     padding: 1.5rem;
     margin: 2rem 0;
     font-size: 2rem;
-
     div {
-      padding: 1rem 0;
+      display: flex;
+      justify-content: space-between;
+      padding: 1rem 2rem;
+      letter-spacing: 2px;
       border-bottom: 2px solid darkgray;
     }
   }

@@ -18,7 +18,7 @@ const CardContextProvider = ({ children }) => {
 
   const addToCart = (product) => {
     const index = cart.findIndex((item) => item.id === product.id);
-    if (index !== -1) {
+    if (index !== -1 && cart[index].size === product.size) {
       const newCart = [...cart];
       newCart[index].quantity += product.quantity;
       setCart(newCart);
@@ -29,7 +29,16 @@ const CardContextProvider = ({ children }) => {
     setCart((prev) => [...prev, product]);
   };
 
-  const removeFromCart = (id) => {
+  const removeFromCart = (id, size) => {
+    const index = cart.findIndex(
+      (item) => item.id === id && item.size === size
+    );
+    if (index !== -1) {
+      const newCart = [...cart];
+      newCart.splice(index, 1);
+      setCart(newCart);
+      return;
+    }
     setCart((prev) => prev.filter((product) => product.id !== id));
   };
 
