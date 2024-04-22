@@ -8,7 +8,7 @@ const Logo = () => {
     <Link to="/">
       <div className="navbar-logo">
         <img src={logo} className="logo-img" />
-        <p className="logo-text">Shopper</p>
+        <p className="logo-text">ZURU</p>
       </div>
     </Link>
   );

@@ -9,7 +9,8 @@ const Navbar = () => {
   const user = true;
   return (
     <div className="navbar">
-      <Logo />
+      {/* <Logo /> */}
+      <h2 style={{ fontSize: "3.5rem" }}>ZURU</h2>
 
       <ul className="nav-links">
         <NavLink to="/" className="nav-link">
