@@ -4,10 +4,12 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": " vite ",
+    "dev": "vite",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "server": "json-server -p 5000 -w ./src/json/api.json",
+    "start": "concurrently \"npm run server\" \"npm run dev\""
   },
   "dependencies": {
     "axios": "^1.6.8",
